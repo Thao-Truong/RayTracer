@@ -1,0 +1,90 @@
+﻿Build started 19/03/2014 11:04:54 PM.
+     1>Project "C:\Users\100452548\Desktop\School\Semester 2\Sci Visualizations and Graphics\Assignments\Assignment 2\Assignment 2 _ Thuy Truong\raytracer-visualstudio\RayTracer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\RayTracer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt image.cpp light.cpp lodepng.cpp main.cpp material.cpp raytracer.cpp scene.cpp sphere.cpp triple.cpp yaml\content.cpp yaml\exp.cpp yaml\iterator.cpp yaml\map.cpp yaml\node.cpp yaml\parser.cpp yaml\parserstate.cpp yaml\regex.cpp yaml\scalar.cpp yaml\scanner.cpp yaml\scanscalar.cpp yaml\scantoken.cpp yaml\sequence.cpp yaml\simplekey.cpp yaml\stream.cpp
+         stream.cpp
+     1>c:\users\100452548\desktop\school\semester 2\sci visualizations and graphics\assignments\assignment 2\assignment 2 _ thuy truong\raytracer-visualstudio\yaml\stream.cpp(9): warning C4244: 'return' : conversion from 'std::streamoff' to 'int', possible loss of data
+         simplekey.cpp
+         sequence.cpp
+         scantoken.cpp
+         scanscalar.cpp
+         scanner.cpp
+         scalar.cpp
+         regex.cpp
+     1>c:\users\100452548\desktop\school\semester 2\sci visualizations and graphics\assignments\assignment 2\assignment 2 _ thuy truong\raytracer-visualstudio\yaml\regex.cpp(134): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+         parserstate.cpp
+         parser.cpp
+         node.cpp
+         map.cpp
+         iterator.cpp
+         exp.cpp
+         content.cpp
+         triple.cpp
+         sphere.cpp
+         scene.cpp
+     1>c:\users\100452548\desktop\school\semester 2\sci visualizations and graphics\assignments\assignment 2\assignment 2 _ thuy truong\raytracer-visualstudio\image.h(122): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\100452548\desktop\school\semester 2\sci visualizations and graphics\assignments\assignment 2\assignment 2 _ thuy truong\raytracer-visualstudio\image.h(123): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\100452548\desktop\school\semester 2\sci visualizations and graphics\assignments\assignment 2\assignment 2 _ thuy truong\raytracer-visualstudio\scene.cpp(77): warning C4018: '<' : signed/unsigned mismatch
+         raytracer.cpp
+     1>c:\users\100452548\desktop\school\semester 2\sci visualizations and graphics\assignments\assignment 2\assignment 2 _ thuy truong\raytracer-visualstudio\image.h(122): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\100452548\desktop\school\semester 2\sci visualizations and graphics\assignments\assignment 2\assignment 2 _ thuy truong\raytracer-visualstudio\image.h(123): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         material.cpp
+         Generating Code...
+         Compiling...
+         main.cpp
+     1>c:\users\100452548\desktop\school\semester 2\sci visualizations and graphics\assignments\assignment 2\assignment 2 _ thuy truong\raytracer-visualstudio\image.h(122): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\100452548\desktop\school\semester 2\sci visualizations and graphics\assignments\assignment 2\assignment 2 _ thuy truong\raytracer-visualstudio\image.h(123): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         lodepng.cpp
+     1>c:\users\100452548\desktop\school\semester 2\sci visualizations and graphics\assignments\assignment 2\assignment 2 _ thuy truong\raytracer-visualstudio\lodepng.cpp(4064): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\100452548\desktop\school\semester 2\sci visualizations and graphics\assignments\assignment 2\assignment 2 _ thuy truong\raytracer-visualstudio\lodepng.cpp(4086): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         light.cpp
+         image.cpp
+     1>c:\users\100452548\desktop\school\semester 2\sci visualizations and graphics\assignments\assignment 2\assignment 2 _ thuy truong\raytracer-visualstudio\image.h(122): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\100452548\desktop\school\semester 2\sci visualizations and graphics\assignments\assignment 2\assignment 2 _ thuy truong\raytracer-visualstudio\image.h(123): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\RayTracer.exe.embed.manifest.res" Debug\RayTracer_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\RayTracer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RayTracer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\RayTracer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Debug\RayTracer.lib" /MACHINE:X86 Debug\RayTracer.exe.embed.manifest.res
+         Debug\image.obj
+         Debug\light.obj
+         Debug\lodepng.obj
+         Debug\main.obj
+         Debug\material.obj
+         Debug\raytracer.obj
+         Debug\scene.obj
+         Debug\sphere.obj
+         Debug\triple.obj
+         Debug\content.obj
+         Debug\exp.obj
+         Debug\iterator.obj
+         Debug\map.obj
+         Debug\node.obj
+         Debug\parser.obj
+         Debug\parserstate.obj
+         Debug\regex.obj
+         Debug\scalar.obj
+         Debug\scanner.obj
+         Debug\scanscalar.obj
+         Debug\scantoken.obj
+         Debug\sequence.obj
+         Debug\simplekey.obj
+         Debug\stream.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\RayTracer.exe.embed.manifest" /manifest Debug\RayTracer.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         RayTracer.vcxproj -> C:\Users\100452548\Desktop\School\Semester 2\Sci Visualizations and Graphics\Assignments\Assignment 2\Assignment 2 _ Thuy Truong\raytracer-visualstudio\Debug\RayTracer.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\RayTracer.unsuccessfulbuild".
+         Touching "Debug\RayTracer.lastbuildstate".
+     1>Done Building Project "C:\Users\100452548\Desktop\School\Semester 2\Sci Visualizations and Graphics\Assignments\Assignment 2\Assignment 2 _ Thuy Truong\raytracer-visualstudio\RayTracer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:35.33
